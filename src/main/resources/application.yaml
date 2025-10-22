@@ -1,6 +1,13 @@
 spring:
   application:
     name: shubai-code-ai
+  # mysql
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/ai_code
+    username: root
+    password: 952298144
+
 server:
   port: 8123
   servlet:
